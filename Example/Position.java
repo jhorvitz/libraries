@@ -1,3 +1,4 @@
+
 public class Position {
     
     int row;

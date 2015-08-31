@@ -1,3 +1,4 @@
+
 import edu.drexel.cs.jah473.distance.KDPoint;
 
 @SuppressWarnings("serial")

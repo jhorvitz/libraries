@@ -3,8 +3,11 @@ package edu.drexel.cs.jah473.us_cities;
 import java.util.List;
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
 
+import edu.drexel.cs.jah473.us_cities.City;
+import edu.drexel.cs.jah473.us_cities.USCities;
 import static edu.drexel.cs.jah473.us_cities.State.*;
 
 public class CitiesTest {
