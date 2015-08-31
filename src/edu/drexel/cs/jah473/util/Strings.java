@@ -105,7 +105,7 @@ public final class Strings {
 
     /**
      * Returns a version of the given string with all non-alphanumeric
-     * characters removed.
+     * characters besides spaces removed.
      * 
      * @param str
      *            the given string
@@ -113,7 +113,7 @@ public final class Strings {
      *         characters removed
      */
     public static String removePunctuation(String str) {
-        return str.replaceAll("[^A-Za-z0-9]", "");
+        return str.replaceAll("[^A-Za-z0-9 ]", "");
     }
 
     /**

@@ -12,6 +12,11 @@ import java.util.Queue;
 
 import edu.drexel.cs.jah473.datastructures.TallyMap;
 
+/**
+ * Various statistical functions.
+ * @author Justin Horvitz
+ *
+ */
 public final class Stats {
 
     /**
@@ -80,6 +85,7 @@ public final class Stats {
         while (!pq.isEmpty()) {
             list.add(pq.remove());
         }
+        Collections.reverse(list);
         return list;
     }
 
